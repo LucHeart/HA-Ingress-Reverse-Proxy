@@ -1,0 +1,5 @@
+{
+    "name": "Nginx reverse proxy via ingress",
+    "url": "https://github.com/zlucplayz/ha-ingress-proxy",
+    "maintainer": "zlucplayz"
+}
