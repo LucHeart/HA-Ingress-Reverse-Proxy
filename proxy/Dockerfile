@@ -1,6 +1,6 @@
 ARG BUILD_ARCH
 # hadolint ignore=DL3006
-FROM ghcr.io/hassio-addons/debian-base/${BUILD_ARCH}:5.2.1
+FROM ghcr.io/hassio-addons/debian-base/${BUILD_ARCH}:5.1.0
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]

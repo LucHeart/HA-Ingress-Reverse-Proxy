@@ -1,6 +1,6 @@
 {
   "name": "Ingress Proxy",
-  "version": "1.0",
+  "version": "1.1",
   "panel_icon": "mdi:application-outline",
   "panel_title": "Ingress Proxy",
   "slug": "ingress-proxy",
@@ -15,7 +15,7 @@
   "ingress_entry": "/",
   "panel_admin": false,
   "ports": {
-    "5000/tcp": 5000
+    "5000/tcp": ""
   },
   "ports_description": {
     "5000/tcp": "Web interface (Not required for Hass.io Ingress)"
