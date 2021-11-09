@@ -5,7 +5,7 @@
   "panel_title": "Ingress Proxy",
   "slug": "ingress-proxy",
   "description": "Proxy addon via Ingress",
-  "url": "https://github.com/zlucplayz/ha-ingress-reverse-proxy",
+  "url": "https://github.com/zLucPlayZ/HA-Ingress-Reverse-Proxy",
   "startup": "application",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:5000]/",
