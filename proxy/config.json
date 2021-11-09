@@ -1,6 +1,6 @@
 {
   "name": "Ingress Proxy",
-  "version": "1.4",
+  "version": "1.5",
   "panel_icon": "mdi:application-outline",
   "panel_title": "Ingress Proxy",
   "slug": "ingress-proxy",
