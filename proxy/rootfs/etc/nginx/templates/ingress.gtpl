@@ -10,11 +10,15 @@ server {
         proxy_pass http://backend;
         proxy_set_header X-Ingress-Path {{ .entry }};
         include /etc/nginx/includes/proxy_params.conf;
+
+        add_header X-uri "$uri";
     }
 
     location / {
         allow   172.30.32.2;
         deny    all;
+
+        add_header X-uri "$uri";
 
         stub_status on;
         proxy_set_header X-Ingress-Path {{ .entry }};
