@@ -18,9 +18,8 @@ server {
         allow   172.30.32.2;
         deny    all;
 
-        add_header X-uri "$uri";
-
-        stub_status on;
+        root /etc/nginx/www;
+        index index.html;
         proxy_set_header X-Ingress-Path {{ .entry }};
     }
 }
