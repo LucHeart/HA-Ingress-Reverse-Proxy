@@ -1,6 +1,6 @@
 {
   "name": "Ingress Proxy",
-  "version": "1.2",
+  "version": "1.3",
   "panel_icon": "mdi:application-outline",
   "panel_title": "Ingress Proxy",
   "slug": "ingress-proxy",
@@ -32,7 +32,7 @@
   "schema": {
     "server": "match(^.+:\\d+$)"
   },
-  "services": [],
+  "services": [],bs.to
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "map": []
 }
