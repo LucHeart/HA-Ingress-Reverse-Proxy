@@ -11,6 +11,10 @@ server {
         proxy_set_header X-Ingress-Path {{ .entry }};
         include /etc/nginx/includes/proxy_params.conf;
 
+        rewrite /test/(.*) /$1  break;
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+
         add_header X-uri "$uri";
     }
 
